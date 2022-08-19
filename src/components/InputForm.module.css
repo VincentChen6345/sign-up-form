@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.disclaimer {
+  font-size: 1.3rem;
+}
+
+em {
+  font-style: normal;
+  font-weight: 700;
+}

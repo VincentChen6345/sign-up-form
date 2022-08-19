@@ -1,18 +1,14 @@
 import React from "react";
+import styles from "./Cta.module.css";
+import InputForm from "./InputForm";
 
 const Cta = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <div>
         <p>Try is free 7 days then $20/mo. thereafter</p>
       </div>
-      <form>
-        <input type="text" placeholder="First Name" />
-        <button type="submit">Claim your free trial</button>
-        <span>
-          By clicking the button, you are agreeing to our terms and services
-        </span>
-      </form>
+      <InputForm />
     </div>
   );
 };

@@ -1,0 +1,16 @@
+.container {
+  width: 100%;
+  /* display: flex;
+  align-items: center;
+  flex-direction: column; */
+  margin-right: 2rem;
+}
+.heading {
+  font-size: 5rem;
+  text-align: left;
+  margin-bottom: 4rem;
+}
+.paragraph {
+  text-align: left;
+  color: black;
+}

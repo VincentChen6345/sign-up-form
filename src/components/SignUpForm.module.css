@@ -2,4 +2,6 @@
   background-color: lightyellow;
   width: 70vw;
   height: 70vh;
+  display: flex;
+  align-items: center;
 }

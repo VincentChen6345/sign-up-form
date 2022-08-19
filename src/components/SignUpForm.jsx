@@ -7,7 +7,7 @@ const SignUpForm = () => {
   return (
     <div className={styles.container}>
       <Description />
-      <Cta />;
+      <Cta />
     </div>
   );
 };
