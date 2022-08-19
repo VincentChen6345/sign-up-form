@@ -1,0 +1,10 @@
+.btn {
+  line-height: 4rem;
+  margin-bottom: 1.5rem;
+  background-color: var(--green);
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.2rem rgb(64, 159, 112);
+  color: var(--white);
+  text-transform: uppercase;
+}

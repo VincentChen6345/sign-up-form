@@ -4,6 +4,7 @@
   align-items: center;
   flex-direction: column; */
   margin-right: 2rem;
+  color: var(--white);
 }
 .heading {
   font-size: 5rem;
@@ -12,5 +13,6 @@
 }
 .paragraph {
   text-align: left;
-  color: black;
+  line-height: 1.4;
+  font-size: 1.7rem;
 }

@@ -4,17 +4,23 @@
 }
 
 .disclaimer {
-  font-size: 1.3rem;
+  font-size: 1rem;
+  color: var(--grey);
 }
 
-em {
+a {
   font-style: normal;
   font-weight: 700;
+  color: var(--red);
+  text-decoration: none;
 }
 
 input {
-  line-height: 5rem;
+  line-height: 4rem;
   margin-bottom: 2.5rem;
   padding-left: 3rem;
   padding-right: 3rem;
+}
+input::placeholder {
+  font-weight: 600;
 }

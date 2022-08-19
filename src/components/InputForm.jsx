@@ -1,5 +1,7 @@
 import styles from "./InputForm.module.css";
 import Card from "./UI/Card";
+import ClaimBtn from "./ClaimBtn";
+
 const InputForm = () => {
   return (
     <Card type="input">
@@ -8,10 +10,10 @@ const InputForm = () => {
         <input type="text" placeholder="Last Name" />
         <input type="email" placeholder="Email Address" />
         <input type="password" placeholder="Password" />
-        <button type="submit">Claim your free trial</button>
+        <ClaimBtn />
         <span className={styles.disclaimer}>
           By clicking the button, you are agreeing to our
-          <em>Terms and Services</em>
+          <a href="#"> Terms and Services</a>
         </span>
       </form>
     </Card>

@@ -4,11 +4,11 @@
 }
 
 .white {
-  background-color: white;
+  background-color: var(--white);
   padding: 4rem 4rem;
 }
 
 .blue {
-  background-color: blue;
+  background-color: var(--purple);
   padding: 2rem 4rem;
 }

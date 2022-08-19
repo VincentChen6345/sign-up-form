@@ -7,7 +7,9 @@ const Cta = () => {
   return (
     <div className={styles.container}>
       <Card>
-        <p>Try is free 7 days then $20/mo. thereafter</p>
+        <p className={styles.paragraph}>
+          <em>Try is free 7 days</em> then $20/mo. thereafter
+        </p>
       </Card>
       <InputForm />
     </div>
