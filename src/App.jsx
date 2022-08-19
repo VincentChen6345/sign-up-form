@@ -12,3 +12,5 @@ function App() {
 }
 
 export default App;
+
+/*create card wrapper component for the input fields*/

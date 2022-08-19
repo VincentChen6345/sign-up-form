@@ -11,3 +11,10 @@ em {
   font-style: normal;
   font-weight: 700;
 }
+
+input {
+  line-height: 5rem;
+  margin-bottom: 2.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}

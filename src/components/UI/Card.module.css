@@ -1,0 +1,14 @@
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 1rem rgba(0, 0, 0, 0.294);
+}
+
+.white {
+  background-color: white;
+  padding: 4rem 4rem;
+}
+
+.blue {
+  background-color: blue;
+  padding: 2rem 4rem;
+}
