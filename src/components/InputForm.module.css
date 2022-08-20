@@ -20,6 +20,13 @@ input {
   margin-bottom: 2.5rem;
   padding-left: 3rem;
   padding-right: 3rem;
+  border: 1px solid var(--grey);
+  border-radius: 5px;
+}
+input:focus {
+  outline: none;
+  border: 1px solid black;
+  font-weight: 700;
 }
 input::placeholder {
   font-weight: 600;

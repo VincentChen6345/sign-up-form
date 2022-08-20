@@ -8,3 +8,10 @@
   color: var(--white);
   text-transform: uppercase;
 }
+
+.btn:hover {
+  background-color: var(--green-light);
+}
+.btn:active {
+  background-color: var(--green-dark);
+}

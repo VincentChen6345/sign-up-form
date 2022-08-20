@@ -21,6 +21,8 @@ html {
   --purple: rgb(74, 62, 146);
   --white: rgb(255, 255, 255);
   --green: rgb(50, 197, 119);
+  --green-light: rgb(57, 224, 135);
+  --green-dark: rgb(46, 189, 113);
   --red: rgb(252, 97, 101);
   --grey: rgb(185, 182, 199);
 }
