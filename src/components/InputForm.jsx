@@ -13,7 +13,7 @@ const InputForm = () => {
         <ClaimBtn />
         <span className={styles.disclaimer}>
           By clicking the button, you are agreeing to our
-          <a href="#"> Terms and Services</a>
+          <a href="https://www.google.com/"> Terms and Services</a>
         </span>
       </form>
     </Card>
