@@ -31,4 +31,5 @@ html {
   --bp-medium: 1019px;
   --bp-small: 916px;
   --bp-smaller: 575px;
+  --bp-smallest: 445px;
 }

@@ -39,3 +39,8 @@
     text-align: center;
   }
 }
+@media (max-width: 445px) {
+  .heading {
+    font-size: 3rem;
+  }
+}

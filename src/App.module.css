@@ -14,5 +14,8 @@
     background-image: url("./assets/bg-intro-mobile.png");
     background-size: cover;
     background-position: center;
+    height: 100%;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
   }
 }
