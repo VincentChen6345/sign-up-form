@@ -11,4 +11,15 @@
 .blue {
   background-color: var(--purple);
   padding: 2rem 4rem;
+  margin-bottom: 3rem;
+}
+@media (max-width: 916px) {
+  .white {
+    padding: 3rem 3rem;
+  }
+}
+@media (max-width: 575px) {
+  .blue {
+    margin-bottom: 3rem;
+  }
 }

@@ -9,3 +9,10 @@
   background-image: url("./assets/bg-intro-desktop.png");
   background-color: var(--red);
 }
+@media (max-width: 575px) {
+  .App {
+    background-image: url("./assets/bg-intro-mobile.png");
+    background-size: cover;
+    background-position: center;
+  }
+}

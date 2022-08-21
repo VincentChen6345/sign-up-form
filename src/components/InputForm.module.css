@@ -31,3 +31,8 @@ input:focus {
 input::placeholder {
   font-weight: 600;
 }
+/* @media (max-width: 916px) {
+  input{
+
+  }
+} */

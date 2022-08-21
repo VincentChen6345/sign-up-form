@@ -25,4 +25,10 @@ html {
   --green-dark: rgb(46, 189, 113);
   --red: rgb(252, 97, 101);
   --grey: rgb(185, 182, 199);
+
+  /*Breakpoints*/
+  --bp-normal: 1221px;
+  --bp-medium: 1019px;
+  --bp-small: 916px;
+  --bp-smaller: 575px;
 }

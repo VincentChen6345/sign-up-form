@@ -4,3 +4,21 @@
   display: flex;
   align-items: center;
 }
+
+@media (max-width: 1221px) {
+  .container {
+    width: 85vw;
+  }
+}
+@media (max-width: 1019px) {
+  .container {
+    width: 95vw;
+  }
+}
+@media (max-width: 575px) {
+  .container {
+    flex-direction: column;
+    width: 90vw;
+    height: auto;
+  }
+}
