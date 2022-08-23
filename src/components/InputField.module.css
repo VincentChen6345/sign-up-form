@@ -1,0 +1,71 @@
+.input {
+  line-height: 4rem;
+
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border: 1px solid var(--grey);
+  border-radius: 5px;
+  width: 100%;
+}
+.input:focus {
+  outline: none;
+  border: 1px solid black;
+  font-weight: 700;
+}
+.input::placeholder {
+  font-weight: 600;
+}
+
+.input.invalid {
+  border: 2px solid var(--red);
+  color: var(--red);
+}
+.input.invalid::placeholder {
+  font-weight: 600;
+  color: var(--red);
+}
+
+.error {
+  position: absolute;
+  font-size: 1.3rem;
+  color: var(--red);
+  width: auto;
+  width: 100%;
+  text-align: right;
+  right: 0;
+  bottom: -18px;
+}
+.hidden {
+  display: none;
+}
+.errorIcon {
+  background-color: var(--red);
+  color: white;
+  padding: 0.3rem 0.9rem;
+  border-radius: 4rem;
+  font-size: 1.5rem;
+  position: absolute;
+  right: 20px;
+  top: 8px;
+}
+
+.firstName {
+  position: relative;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+.lastName {
+  position: relative;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+.emailInput {
+  position: relative;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+.password {
+  position: relative;
+  width: 100%;
+  margin-bottom: 3rem;
+}

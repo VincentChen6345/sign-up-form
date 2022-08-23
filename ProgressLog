@@ -20,4 +20,4 @@
 
 23/8/22
 
-1. think about how to use components and props to simplify the input fields
+1. add further detail to validation of emailinput e.g.(missing @, not ending in '.com')
