@@ -17,3 +17,7 @@
 
 1. add media queries
 2. add validation functionality
+
+23/8/22
+
+1. think about how to use components and props to simplify the input fields
