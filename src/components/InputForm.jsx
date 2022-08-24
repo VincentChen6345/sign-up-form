@@ -10,6 +10,9 @@ const InputForm = () => {
   const [lastName, setLastName] = useState("");
   const [emailInput, setEmailInput] = useState("");
   const [password, setPassword] = useState("");
+  const [passwordErrMsg, setPasswordErrMsg] = useState(
+    "Password cannot be empty"
+  );
   /////////////////////////////////
   /*State Variable-Input Validity*/
   const [firstNameIsValid, setFirstNameIsValid] = useState(true);
@@ -29,7 +32,7 @@ const InputForm = () => {
     return;
   };
   const emailInputChangeHandler = (e) => {
-    emailInputIsValid(true);
+    setEmailInputIsValid(true);
     setEmailInput(e.target.value);
     return;
   };
@@ -60,11 +63,17 @@ const InputForm = () => {
     }
     if (password.trim().length === 0) {
       setPasswordIsValid(false);
+    } else if (
+      password
+        .split("")
+        .map((value) => +value)
+        .filter((value) => isNaN(value) === false).length < 2
+    ) {
+      setPasswordIsValid(false);
+      setPasswordErrMsg("Password must contain at least 2 numbers");
     } else {
       setPassword("");
     }
-
-    return;
   };
   return (
     <Card type="input">
@@ -91,7 +100,7 @@ const InputForm = () => {
         />
         <InputField
           className="emailInput"
-          type={"text"}
+          type="email"
           placeholder="Email Address"
           stateVariable={emailInputIsValid}
           onChange={emailInputChangeHandler}
@@ -101,13 +110,13 @@ const InputForm = () => {
         />
         <InputField
           className="password"
-          type={"text"}
+          type={"password"}
           placeholder="Password"
           stateVariable={passwordIsValid}
           onChange={passwordChangeHandler}
           onSubmit={submitHandler}
           value={password}
-          errorMessage="Password cannot be empty"
+          errorMessage={passwordErrMsg}
         />
 
         <ClaimBtn />
